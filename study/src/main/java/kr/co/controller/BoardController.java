@@ -35,7 +35,7 @@ private static final Logger logger = LoggerFactory.getLogger(BoardController.cla
 		
 		service.write(boardVO);
 		
-		return "redirect:/";
+		return "redirect:/board/list";
 	}
 	// 게시판 목록 조회
 		@RequestMapping(value = "/list", method = RequestMethod.GET)
@@ -74,7 +74,7 @@ private static final Logger logger = LoggerFactory.getLogger(BoardController.cla
 		public String update(BoardVO boardVO) throws Exception{
 			logger.info("update");
 			
-			service.update(boardVO); //업데이트하고 다시 새로고침하라
+			service.update(boardVO);
 			
 			return "redirect:/board/list";
 		}

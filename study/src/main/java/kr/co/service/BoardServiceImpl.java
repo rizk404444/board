@@ -37,8 +37,8 @@ public class BoardServiceImpl implements BoardService {
 	}
 	
 	@Override
-	public void update(BoardVO boardVO) throws Exception{
-	
+	public void update(BoardVO boardVO) throws Exception {
+
 		dao.update(boardVO);
 	}
 	

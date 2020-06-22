@@ -35,8 +35,8 @@
 	
 	<update id="update" parameterType="kr.co.vo.BoardVO">
 		UPDATE MP_BOARD
-		   SET TITLE    =   #{TITLE},
-		   	   CONTENT  =   #{CONTENT}
+		   SET TITLE    =   #{title},
+		   	   CONTENT  =   #{content}
 		 WHERE BNO = #{bno} 
 	</update>
 	
