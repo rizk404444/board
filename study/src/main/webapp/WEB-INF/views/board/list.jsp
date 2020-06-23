@@ -17,7 +17,7 @@
 			 
 			<div>
 				<%@include file="nav.jsp" %>
-			</div>
+		</div>
 			<hr />
 			
 			<section id="container">
